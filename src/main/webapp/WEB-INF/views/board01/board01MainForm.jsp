@@ -7,6 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-
+	기본 화면 구성
 </body>
 </html>

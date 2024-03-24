@@ -1,5 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>    
+<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -18,7 +20,7 @@
 		<jsp:include page="./common/header.jsp" />	
 			
 			<div id=board-link>
-				<a class="boardBtn" href="">Seungho's Board</a>
+				<a class="boardBtn" href="board01Main">Seungho's Board</a>
 				<a class="boardBtn" href="">Board2</a>
 				<a class="boardBtn" href="">Board3</a>
 			</div>
