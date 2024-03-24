@@ -18,9 +18,9 @@
 		<jsp:include page="./common/header.jsp" />	
 			
 			<div id=board-link>
-				<button class="boardBtn">Seungho's Board</button>
-				<button class="boardBtn">Board2</button>
-				<button class="boardBtn">Board3</button>
+				<a class="boardBtn" href="">Seungho's Board</a>
+				<a class="boardBtn" href="">Board2</a>
+				<a class="boardBtn" href="">Board3</a>
 			</div>
 			
 		<jsp:include page="./common/footer.jsp" />	
