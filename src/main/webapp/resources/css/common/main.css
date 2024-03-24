@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+/* 기본 폰트 = 나눔스퀘어로 설정 */
+@import url(https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@2.0/nanumsquare.css);
+
+*{
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#board-link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.boardBtn {
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.boardBtn:hover {
+    background-color: #0056b3;
+}
