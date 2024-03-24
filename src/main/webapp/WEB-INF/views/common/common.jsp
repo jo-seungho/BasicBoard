@@ -2,8 +2,10 @@
     pageEncoding="UTF-8"%>
 
 <link rel="stylesheet" href="/resources/css/common/reset.css">    
+<!-- 
 <link rel="stylesheet" href="/resources/css/common/header.css">    
-<link rel="stylesheet" href="/resources/css/common/footer.css">    
+<link rel="stylesheet" href="/resources/css/common/footer.css">     
+-->
 
 
 <!-- 부트스트랩 -->
@@ -22,4 +24,5 @@ integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0
 <!-- 폰트-->
 <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@2.0/nanumsquare.css">
 
-<script src="/resources/js/sideBar.js"></script>
+<!-- 슬라이더 관련 라이브러리 -->
+<!-- <script src="/resources/js/sideBar.js"></script> -->
