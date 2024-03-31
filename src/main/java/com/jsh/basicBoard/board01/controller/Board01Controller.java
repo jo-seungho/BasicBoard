@@ -23,7 +23,7 @@ public class Board01Controller {
 	@RequestMapping("board01Main")
 	public String board01Main() {
 		
-		return "/board01/board01MainForm";
+		return "/board01/board01LoginForm";
 		
 	}
 
