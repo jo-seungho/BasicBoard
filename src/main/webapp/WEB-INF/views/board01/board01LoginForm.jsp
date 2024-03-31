@@ -14,15 +14,23 @@
 <title>로그인</title>
 </head>
 <body>
+
+	<c:if test="${ not empty alertMsg }">
+		<script>
+			alertify.alert('알림', '${ alertMsg }', function(){ alertify.success('Ok'); });
+		</script>
+		<c:remove var="alertMsg" scope="session" />
+	</c:if>
+
     <div id = "container_wrap">
         <div class="container">
             <header>
                 <img class="brand_logo" src="resources/img/jostagram_logo.png" alt="logo">
             </header>
-            <form name="login" action="" method="post"> <!--method="post" : 정보를 숨겨서 보낸다-->
-                <input class = "id" type="text" placeholder="전화번호,사용자 이름 또는 이메일"> <!--placeholder : 입력창 안에 text를 넣을 수 있다-->
-                <input class = "pwd" type="password" placeholder="비밀번호">
-                <button class = "loginBtn"><a href="#">로그인</a></button>
+            <form name="login" action="login" method="post"> 
+                <input class="id" name="userId" type="text" placeholder="전화번호,사용자 이름 또는 이메일" required> 
+                <input class="pwd" name="userPwd" type="password" placeholder="비밀번호" maxlength="16" required>
+                <button class="loginBtn"><a href="#">로그인</a></button>
             </form>
             <div class="or_line">
                 <div class="line"></div>
@@ -33,7 +41,7 @@
                 <li><a href="findpwd.html">비밀번호를 잊으셨나요?</a></li>
             </ul>
         </div>
-        <div class = "account">
+        <div class="account">
             <ul>
                 <li>계정이 없으신가요?</li>
                 <li><a href="join.html">가입하기</a></li>

@@ -31,13 +31,13 @@ body {
 }
 
 .brand_logo{
-    display: block;  /*이미지는 인라인요소라 block요소로 바꿔야함(margin안먹힘)*/
+    display: block;  
     width: 15rem;
     margin: 0 auto;
     padding-top: 2rem;
     padding-bottom: 1rem;
 }
-input{ /*<br>남발을 줄이기위해 사용했다*/
+input{ 
     display: block;
     width: 250px;
     height: 40px;
@@ -47,16 +47,19 @@ input{ /*<br>남발을 줄이기위해 사용했다*/
     border-radius: 3px;
     text-indent: 5px;
     outline-color: gray;
+    font-size: small;
+    padding-left: 5px;
+    font-style: italic;
 }
 
-.loginBtn{ /*<br>남발을 줄이기위해 사용했다*/
+.loginBtn{
     display: block;
     width: 250px;
-    height: 30px;
+    height: 45px;
     margin: 0 auto;
     border: none;
     border-radius: 3px;
-    background: rgb(190, 230, 241);
+    background: #0dcaf0;
     font-weight: bold;
     font-size: medium;
     color: white;
@@ -64,7 +67,7 @@ input{ /*<br>남발을 줄이기위해 사용했다*/
 .loginBtn a{
     color: white;
 }
-input:first-child{/*같은 형태 요소 반복시 특정순서따라 속성을 다르게 지정*/
+input:first-child{
     margin-bottom: 0.5rem;
 }
 input:nth-child(2){
@@ -72,7 +75,7 @@ input:nth-child(2){
 }
 
 .or_line{
-    display: flex;/*가로로*/
+    display: flex;
     align-items: center;
     margin: 1rem auto 0;
     justify-content: center;
@@ -87,13 +90,14 @@ input:nth-child(2){
     color: #828181;
 }
 .findpw{
-    margin-top: 1rem;
+    margin-top: 0.5rem;
     font-size: small;
     text-align: center;
     padding-left: 0;
 }
 .findpw a{
-    color: rgb(68, 68, 116);
+    color: #dc3545;
+    font-weight: 900;
 }
 
 
@@ -112,4 +116,8 @@ input:nth-child(2){
 .account ul a{
     font-weight: bold;
     color: rgb(43, 152, 247);
+}
+
+.account ul li:nth-child(2) {
+    margin-left: 15px;
 }

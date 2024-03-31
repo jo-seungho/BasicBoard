@@ -1,5 +1,5 @@
 package com.jsh.basicBoard.board01.model.service;
 
-public class Board01Service {
+public interface Board01Service {
 
 }
