@@ -14,6 +14,7 @@ public class Board01 {
 	private String boardDesc;	// BORAD_DESC	VARCHAR2(2000 BYTE)
 	private String createDate;	// CREATE_DATE	DATE
 	private String status;		// STATUS	CHAR(1 BYTE)
+	private int count;			// COUNT 
 	private int userNo;			// USER_NO	NUMBER
 	private int category;		// CATEGORY	NUMBER
 	
